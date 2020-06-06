@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'Chelsea Market';
+    src: url(ChelseaMarket-Regular.ttf);
+}
+
+.txt-logo {
+    color: white !important;
+    vertical-align: bottom;
+    font-family: 'Chelsea Market';
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbarr {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: white !important;
+    font-weight: 500;
+    font-family: 'Chelsea Market';
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.nav-link:hover {
+    text-transform: uppercase;
+    color: yellow !important;
+    font-weight: 500;
+}
+
+.active {
+    color: yellow !important;
+}
+
+.carousel-item>img {
+    height: 500px;
+}
+
+/* 
+.bannerContainer {
+    position: relative;
+}
+
+.carousel {
+    position: absolute;
+    top: 0;
+} */
+
+.head {
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+
+.about {
+    height: 300px;
+    text-align: center;
+}
+
+.aboutheading {
+    font-family: 'Chelsea Market';
+    color: yellow;
+    font-size: 70px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.hr2 {
+    display: inline-block;
+    width: 50px;
+    background-color: rgb(40, 167, 69);
+    border: 1px solid rgb(40, 167, 69);
+    margin: 0px;
+}
+
+.hr3 {
+    position: relative;
+    top: -23px;
+}
+
+.icons {
+    font-size: 22px;
+    color: rgb(40, 167, 69);
+    margin-right: 10px;
+}
+
+.fontfam {
+    font-family: 'Chelsea Market';
+}
+
+.txtContact {
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+}
+
+.num {
+    font-size: 16px;
+}
+
+.icons1 {
+    font-size: 20px;
+    color: rgb(40, 167, 69);
+    margin-right: 10px;
+}
+
+label {
+    font-size: 18px;
+    padding: 0px 0px 3px 2px;
+}
+
+.footer {
+    padding: 60px 0px;
+}
+
+.txt {
+    font-family: 'Chelsea Market';
+    font-size: 22px;
+}
+
+.hr4 {
+    background-color: gray;
+}
+
+.hr5 {
+    width: 50px;
+    background-color: rgb(40, 167, 69);
+    border: 1px solid rgb(40, 167, 69);
+    margin: 0px;
+    position: relative;
+    top: -18px;
+}
+
+.ico1 {
+    font-size: 14px;
+    color: white;
+    background-color: rgb(40, 167, 69);
+    border: 10px solid rgb(40, 167, 69);
+    border-radius: 100%;
+}
+
+.ico2 {
+    border-left: 13px solid rgb(40, 167, 69);
+    border-right: 12px solid rgb(40, 167, 69);
+}
+
+.copy {
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.bg-Img {
+    background-image: url(images/bg2.jpg);
+    background-attachment: fixed;
+}
+
+.txt1 {
+    color: rgb(43, 40, 40);
+    font-weight: 500;
+}
+
+.imgab {
+    border-radius: 20px;
+}
+
+.div2 {
+    background-image: url(images/bg1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt2 {
+    font-size: 20px;
+}
+
+.txt3 {
+    position: absolute;
+    bottom: 0px;
+    color: yellow;
+}
+
+.card {
+    border: 0;
+    width: 90%;
+    border-radius: 30px;
+}
+
+.card-img {
+    border-radius: 30px;
+    height: 210px;
+}
+
+@media only screen and (max-width: 720px) {
+    .carousel-item>img {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    .card-img {
+        border-radius: 30px;
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .card {
+        border: 0;
+        width: 70%;
+        border-radius: 30px;
+        margin: auto;
+    }
+    .card-img {
+        border-radius: 30px;
+        height: 210px;
+    }
+}
