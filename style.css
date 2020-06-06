@@ -43,16 +43,6 @@
     height: 500px;
 }
 
-/* 
-.bannerContainer {
-    position: relative;
-}
-
-.carousel {
-    position: absolute;
-    top: 0;
-} */
-
 .head {
     background-image: url(images/1.jpg);
     background-repeat: no-repeat;
@@ -184,18 +174,16 @@ label {
 }
 
 .txt3 {
-    position: absolute;
-    bottom: 0px;
-    color: yellow;
+    color: rgb(43, 40, 40) ;
 }
 
-.card {
-    border: 0;
-    width: 90%;
-    border-radius: 30px;
+.txt3:hover {
+    text-decoration: none;
+    color: rgb(43, 40, 40) ;
 }
 
 .card-img {
+    width: 90%;
     border-radius: 30px;
     height: 210px;
 }
@@ -204,6 +192,10 @@ label {
     .carousel-item>img {
         height: 300px;
     }
+    .txt3 {
+        color: rgb(43, 40, 40) ;
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 775px) {
@@ -211,16 +203,24 @@ label {
         border-radius: 30px;
         height: 160px;
     }
+    .txt4{
+        font-size: 24px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
-    .card {
-        border: 0;
-        width: 70%;
-        border-radius: 30px;
-        margin: auto;
+    .logo-img {
+        width: 100px;
+    }
+    .txt-logo {
+        color: white !important;
+        vertical-align: bottom;
+        font-size: 12px;
+        font-family: 'Chelsea Market';
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     }
     .card-img {
+        width: 70%;
         border-radius: 30px;
         height: 210px;
     }
